@@ -20,11 +20,11 @@
 * `git clone git://github.com/Unlimited-Crack-You/CrakIp.git`
 * `cd CrakIp`
 
-#### > Run : `bash `
+#### > Run : `bash Ip-Hait-Crak.sh`
 
 ## Single Command :
 ```
-apt update ; apt install git curl -y ; git clone git://github.com/htr-tech/track-ip.git ; cd track-ip ; bash trackip
+apt update ; apt install git curl -y ; git clone git://github.com/Unlimited-Crack-You/CrakIp.git ; cd CrakIp ; bash Ip-Hait-Crak.sh
 ```
 <br>
 <p align="center">
