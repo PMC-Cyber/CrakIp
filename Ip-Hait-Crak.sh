@@ -1,6 +1,6 @@
 #!/bin/bash
 # recode ngotak tolol 
-#jangan lupa bre started nya ok >.-
+#jangan lupa bre startednya ok >.-
 
 __version__="1.0"
 
