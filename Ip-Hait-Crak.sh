@@ -1,4 +1,6 @@
 #!/bin/bash
+# recode ngotak tolol 
+#jangan lupa bre started nya ok >.-
 
 __version__="1.0"
 
@@ -63,9 +65,9 @@ msg_exit() {
 
 ## Banner 1
 banner1() {
-printf "╔╦╗ ╦┈╦ ╔═╗ ╔╗╔ ╦╔═ ╔═╗ ┈ ╦┈╦ ╔═╗ ╦┈╦  \e[0m\n"
-printf "┈║┈ ╠═╣ ╠═╣ ║║║ ╠╩╗ ╚═╗ ┈ ╚╦╝ ║┈║ ║┈║  \e[0m\n"
-printf "┈╩┈ ╩┈╩ ╩┈╩ ╝╚╝ ╩┈╩ ╚═╝ ┈ ┈╩┈ ╚═╝ ╚═╝  \e[0m\n"
+printf "╔╦╗ ╦ ╦ ╔═╗ ╔╗╔ ╦╔═ ╔═╗   ╦ ╦ ╔═╗ ╦ ╦  \e[0m\n"
+printf " ║  ╠═╣ ╠═╣ ║║║ ╠╩╗ ╚═╗   ╚╦╝ ║ ║ ║ ║  \e[0m\n"
+printf " ╩  ╩ ╩ ╩ ╩ ╝╚╝ ╩ ╩ ╚═╝    ╩  ╚═╝ ╚═╝  \e[0m\n"
 
 }
 
@@ -77,7 +79,7 @@ printf "\e[1;33m   ╦ ╔═╗   ╦ ╦ ╔═╗ ╦ ╔╦╗  \e[0m\e[1;32
 printf "\e[1;33m   ║ ╠═╝   ╠═╣ ╠═╣ ║  ║   \e[0m\e[1;32m  ╠╦╝ ╠═╣ ╠╩╗      • \e[0m\n"
 printf "\e[1;33m   ╩ ╩     ╩ ╩ ╩ ╩ ╩  ╩   \e[0m\e[1;32m  ╩╚═ ╩┈╩ ╩┈╩   \e[0m\n"
 printf "\e[0m\e[1;32m   ┳ ┳ ┏━┓ ┳   ┏━┓ ┏━┓ ┏┳┓ ┏━┓   ┏┳┓ ┏━┓   ┳ ┳ ┏━┓ ┳ ┳   \e[0m\n"
-printf "\e[0m\e[1;32m   ┃┃┃ ┣┫  ┃   ┃ ┃ ┃  ┃┃┃ ┣┫     ┃  ┃ ┃   ┗┳┛ ┃ ┃ ┃ ┃   \e[0m\n"
+printf "\e[0m\e[1;32m   ┃┃┃ ┣┫  ┃   ┃ ┃ ┃    ┃┃┃ ┣┫     ┃  ┃ ┃   ┗┳┛ ┃ ┃ ┃ ┃   \e[0m\n"
 printf "\e[0m\e[1;32m   ┗┻┛ ┗━┛ ┻━┛ ┗━┛ ┗━┛ ┻ ┻ ┗━┛    ┻  ┗━┛    ┻  ┗━┛ ┗━┛   \e[0m\n"
 printf "\e[1;32m                            In Code \e[0m\e[1;33mBash  \e[0m\e[1;31mVersion : ${__version__}    \e[0m\n"
 printf "\e[0m\n"
