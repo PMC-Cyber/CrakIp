@@ -58,9 +58,11 @@ reset_color() {
 
 ## Exit message
 msg_exit() {
-    { clear; banner1; echo; }
+    { clear; banner1; }
     echo -e "${GREENBG}${BLACK} Thank you for using this tool. Have a good day.${RESETBG}\n"
     { reset_color; exit 0; }
+    sleep 2
+    clear
 }
 
 ## Banner 1
@@ -251,7 +253,7 @@ menu
 elif [[ $mainorexit1 == 2 || $about == 02 ]]; then
 printf "\e[0m\n"
 printf "\e[0m\n"
-exit 1
+msg_exit
 else
 printf " \e[1;91m[\e[0m\e[1;97m!\e[0m\e[1;91m]\e[0m\e[1;93m Invalid option \e[1;91m[\e[0m\e[1;97m!\e[0m\e[1;91m]\e[0m\n"
 sleep 1
